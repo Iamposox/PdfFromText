@@ -1,0 +1,5 @@
+{
+  "ConnectionString": "Host=95.217.112.73;Port=5432;Database=ilma_customers;Username=service;Password=ChanHikVuvchycsyoyWobveecOukpy;MaxPoolSize=1000",
+  "ServicePort": "14132",
+  "ServiceHost": "0.0.0.0"
+}

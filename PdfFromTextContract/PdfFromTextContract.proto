@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+package PdfService;
+
+option csharp_namespace = "PdfService";
+option optimize_for = SPEED;
+
+message Result{
+	bool isSuccess = 1;
+}
+
+message ObjectData {
+	string stub = 1;
+}
+
+service PdfService {
+	rpc Add(ObjectData) returns (Result) {}
+}
